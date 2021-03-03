@@ -1,0 +1,283 @@
+/* ################### Default ########################### */
+nav,header,footer{
+  display: block;
+}
+body{
+  margin: 0;
+  line-height:  0px;
+  color: white;
+  background-image:url(su.jpg);
+  background-repeat: repeat-y;
+  background-size: cover;
+}
+.container{
+  width: 100;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin:5%;
+}
+.row{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+img{
+  max-width: 100%;
+  height: auto;
+  padding: 5px;
+}
+/*#################### Nav bar ###########################  */
+nav{
+  width:100%;
+  margin :0;
+}
+ul li img{
+  margin:20px 0 0 70px;
+}
+nav ul{
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  margin top:30px;
+  margin-right: 30px;
+}
+ul.nav li{
+  display: inline;
+  list-style: none;
+  font-style: normal;
+  font-family:'Jura',sans-serif;
+}
+ul.nav li.nav_right{
+  float:right;
+
+}
+ul.nav li a
+{
+  display: block;
+  text-decoration: none;
+  padding: 20px;
+  text-align: center;
+  min-height: 10px;
+  line-height: 70px;
+  font-size: 23px;
+  color: white;
+}
+ul.nav li a:hover{
+  background-color: #616161;
+  color: #68cc72;
+}
+ul.nav li.dropdown{
+  display:none;
+}
+/* ############## colour ############################### */
+#container1{
+   background: rgb(2,0,36);
+   background: linear-gradient(90deg, rgba(2,0,36,1) 1%, rgba(9,9,121,0.1632003143054097) 24%, rgba(50,50,50,1) 100%);
+}
+/* ######################### HOME ################### */
+.col-6 img.img{
+  margin:20% 0 10% 20%;
+  border-radius: 5%;
+}
+h2.details.2{
+  text-align: right;
+}
+h2.details{
+  font-family: 'Didact Gothic', sans-serif;
+  font-style: normal;
+  font-size: 17px;
+  padding: 20px;
+  opacity: 60%;
+  line-height: 20px;
+}
+h2.pro{
+ font-family: 'Raleway', sans-serif;
+ font-size: 25px;
+ margin-left: 5%;
+ opacity: 70%;
+ display: flex;
+ line-height: 30px;
+}
+/* ################ ABOUT ################ */
+#about{
+  background-color: #ffffff;
+ }
+h2.aboutme{
+    color: black;
+    font-size: 50px;
+    font-family: 'Krona One',sans-serif ;
+    text-align:left;
+    margin: 50px 0 50px 21%;
+    line-height: 5px;
+}
+p.aboutp{
+  color: black;
+  font-family: 'Noto Sans HK', sans-serif;
+  margin: 0 0 0 25%;
+  line-height: 30px;
+
+}
+/* ################## SKILLS ############### */
+#skills{
+  background: rgb(102,100,100);
+  background: linear-gradient(90deg, rgba(102,100,100,0.8186624991793592) 1%, rgba(127,129,119,0.38728995015975143) 52%, rgba(0,0,0,0.8382703423166141) 100%);
+}
+.skills .row .col-3{
+  box-shadow: 9px 11px 31px 0px rgba(135,142,31,0.64);
+-webkit-box-shadow: 9px 11px 31px 0px rgba(135,142,31,0.64);
+-moz-box-shadow: 9px 11px 31px 0px rgba(135,142,31,0.64);
+  border-radius: 10%;
+  margin-bottom: 5%;
+}
+h2.skills{
+  font-family:'Krona One',sans-serif ;
+  text-align: center;
+  margin-top: 50px;
+  width: 100%;
+  font-size: 40px;
+  line-height: 40px;
+}
+.skills .col-3{
+  padding: 8%;
+  margin-left: 5%;
+}
+h2.skillsh{
+  color: white;
+  text-align: left;
+  font-size: 40px;
+  font-family:  'Teko', sans-serif;
+}
+p.skillsp{
+  line-height: 30px;
+  text-align: left;
+  font-size: 30px;
+  font-family:  'Teko', sans-serif;
+}
+.skills .row .col-3:hover{
+  background-color: black;
+  color: white;
+}
+/* ####################### FOOTER ################## */
+footer{
+  background-color: #00cca3;
+}
+
+.col-6.footer{
+  margin: 100px 20px 20px 25%;
+  text-align: center;
+  border: 10px solid black;
+  width: 50%;
+  font-size: 40px;
+  font-family: 'Overpass',sans-serif;
+  color: black;
+  padding: 20px;
+  line-height: 100px;
+}
+.col-8.contact{
+  font-family: 'Overpass',sans-serif;
+  padding: :50px 0 20px 20%;
+  font-size: 30px;
+  text-align: center;
+}
+article p{
+  font-family: 'Didact Gothic', sans-serif;
+  line-height: 40px;
+  font-weight: 600;
+  font-size: 20px;
+  margin-left: 5px;
+  text-align:left;
+  margin-left: 40.5%;
+}
+form.form{
+  font-family: 'Abel',sans-serif;
+  color:white;
+}
+input[type=text]{
+  background:rgba(0,0,0,0);
+  border:2px solid #cccccc;
+  font-size: 15px;
+  padding: 5px;
+  width: 300px;
+}
+input[type=email]{
+  background:rgba(0,0,0,0);
+  border:2px solid #cccccc;
+  font-size: 15px;
+  padding: 5px;
+  width: 300px;
+}
+input[type=submit]{
+  margin-top: 20px;
+  padding: 5px;
+  border: 2px solid #cccccc;
+  background:rgba(0,0,0,0);
+  margin-bottom: 20px;
+}
+h4.copy{
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Noto Sans HK', sans-serif;
+  font-weight: 200;
+}
+div.row.copy{
+  background-color: black;
+  color: white;
+}
+
+
+/* ############## Mobile ################### */
+@media screen and (max-width:880px) {
+  ul.nav li.nav_right{
+    display:none;
+  }
+  ul.nav li.dropdown{
+    display:block;
+    float: right;
+  }
+  ul.nav.responsive li.dropdown{
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  ul.nav.responsive{
+    position: relative;
+  }
+  ul.nav.responsive li{
+    display:inline;
+    float: none;
+  }
+  ul.nav.responsive li a{
+    display: block;
+    text-align:center;
+  }
+  .col-6 , .col-3{
+    width: 100%;
+    margin: 0;
+  }
+  .col-6 img.img{
+    position: relative;
+    width: 100%;
+    margin: 0;
+  }
+  img.img2{
+    position: relative;
+    width: 100%;
+    margin:0;
+  }
+  .col-4{
+    width: 100%;
+  }
+}
