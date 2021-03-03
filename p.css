@@ -239,7 +239,7 @@ div.row.copy{
 
 
 /* ############## Mobile ################### */
-@media screen and (max-width:880px) {
+@media screen and (max-width:1000px) {
   ul.nav li.nav_right{
     display:none;
   }
